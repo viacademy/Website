@@ -81,8 +81,11 @@ html {
     transform: rotate(-90deg);
 }
 nav .nav-link:hover {
-	border-bottom: red 2px solid;
+	border-bottom-color: red;
+	border-bottom-style: solid;
+	border-bottom-width: 100%;
 	padding-bottom: 1px;
+	
 }
 nav .nav-link.active {
 	border-bottom: red 2px solid;
@@ -99,6 +102,7 @@ nav .nav-link.active {
 }
 .nav-link {
 	color: darkblue !important;
+	border-bottom-width: 0%;
 }
 /*.active {
 	color: #003399 !important;

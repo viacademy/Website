@@ -85,6 +85,7 @@ nav .nav-link:hover {
 	border-bottom-style: solid;
 	border-bottom-width: 100%;
 	padding-bottom: 1px;
+	transition: .5s;
 	
 }
 nav .nav-link.active {

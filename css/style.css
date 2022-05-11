@@ -69,13 +69,16 @@ html {
 }
 .dropdown-submenu {
     position:relative;
-    background-color: darkblue;
+    background-color: darkblue !important;
 }
 .dropdown-submenu>.dropdown-menu {
     top: 0;
     left: 100%;
     margin-top:-6px;
-    background-color: darkblue;
+    background-color: darkblue !important;
+}
+.dropdown-item {
+    background-color: darkblue !important;
 }
 /* rotate caret on hover */
 .dropdown-menu > li > a:hover:after {
